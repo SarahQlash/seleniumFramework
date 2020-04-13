@@ -1,4 +1,4 @@
-# seleniumFramework
+# selenium Framework
      Simple Project using java ,Maven ,TestNG , allure , POM  and RestAssured using Data Driven framework in the project.
 
 # Tech Stach :
@@ -19,7 +19,7 @@
 	- Git bash
 
 ### Installing and how it work
-	get your git bash where you want to clone the project on your local machine.
+	Get your git bash where you want to clone the project on your local machine.
 	then type:
 ```
 git clone https://github.com/SarahQlash/seleniumFramework.git
@@ -35,20 +35,20 @@ allure-results this where the output of test
 
 ### Component of pages
 	1- Page Base
-	2- sign up page
-	3- login page
-	4- home page
+	2- Sign up page
+	3- Login page
+	4- Home page
 
 ### Component of tests
 	1- Test base
-	2- user sign up  with DDT by JSON >> user sign up then logout then login reading data from JSON file
-	3- user sign up  with Faker lib >>  user sign up then logout then login reading data from Faker Lib
-	4- get response body by RestAssured and save it in html file
+	2- The user sign up  with DDT by JSON >> user sign up then logout then login reading data from JSON file
+	3-The user sign up  with Faker lib >>  user sign up then logout then login reading data from Faker Lib
+	4- Get response body by RestAssured and save it in html file
 
 ### Component of utilities
-	1- it's a helper take the screen shoot of failure
+	1- It's a helper to take the screen shoot of failures
 
 ### Component of data
-	it's a java classes for data read/write data
+	It's a java classes for read/write data
 
-This is simple project for sige up using seleium framework , you can run the project on different browsers chrome ,firfox and ie .
+This is a simple project for sign up using selenium framework , you can run the project on different browsers chrome ,firefox and internet explorer.
