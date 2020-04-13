@@ -1,14 +1,13 @@
 # seleniumFramework
      Simple Project using java ,Maven ,TestNG , allure , POM  and RestAssured using Data Driven framework in the project.
 
-  <dl>
-  <dt># Tech Stach :</dt>
-  <dd> Java </dd>
-  <dd> Maven </dd>
-  <dd> TestNG </dd>
-  <dd> Allure </dd>
-  <dd> RestAssured </dd>
-  </dl>
+# Tech Stach :
+
+  ``` Java ```
+  ``` Maven ```
+  ``` TestNG ```
+  ``` Allure ```
+  ``` RestAssured ```
 
 ## Getting Started
    These instructions will get you a copy of the project up and running on your local machine.
