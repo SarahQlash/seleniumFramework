@@ -33,7 +33,7 @@ public class GetResponseTest {
 	private static void writeUsingOutputStream(String data) {
         OutputStream os = null;
         try {
-            os = new FileOutputStream(new File(System.getProperty("user.dir")+"/src/test/java/data/bodyResponse.txt"));
+            os = new FileOutputStream(new File(System.getProperty("user.dir")+"/src/test/java/data/getBodyResponse.html"));
             os.write(data.getBytes(), 0, data.length());
         } catch (IOException e) {
             e.printStackTrace();
