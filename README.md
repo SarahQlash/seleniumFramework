@@ -24,10 +24,10 @@
 ```
 git clone https://github.com/SarahQlash/seleniumFramework.git
 ```
-* import the project into Eclipse by importing maven project.
-* you can run the project directly through the Eclipse by running TCS by TestNG or Run the project by maven
-* you can also run the test cases by getting the report directly through allure framework
-* type in git bash after you select the project destination `allure -serve` then
+* Import the project into Eclipse by importing maven project.
+* You can run the project directly through the Eclipse by running TCS by TestNG or Run the project by maven
+* You can also run the test cases by getting the report directly through allure framework
+* Type in git bash after you select the project destination `allure -serve` then
 ```
 allure.bat serve allure-results
 ```
