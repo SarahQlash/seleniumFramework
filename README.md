@@ -39,13 +39,16 @@ allure-results this where the output of test
 	2- sign up page
 	3- login page
 	4- home page
+
 # Component of tests
 	1- Test base
 	2- user sign up  with DDT by JSON >> user sign up then logout then login reading data from JSON file
 	3- user sign up  with Faker lib >>  user sign up then logout then login reading data from Faker Lib
 	4- get response body by RestAssured and save it in html file
+
 # Component of utilities
 	1- it's a helper take the screen shoot of failure
+
 # Component of data
 	it's a java classes for data read/write data
 
