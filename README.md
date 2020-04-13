@@ -33,22 +33,22 @@ allure.bat serve allure-results
 ```
 allure-results this where the output of test
 
-# Component of pages
+### Component of pages
 	1- Page Base
 	2- sign up page
 	3- login page
 	4- home page
 
-# Component of tests
+### Component of tests
 	1- Test base
 	2- user sign up  with DDT by JSON >> user sign up then logout then login reading data from JSON file
 	3- user sign up  with Faker lib >>  user sign up then logout then login reading data from Faker Lib
 	4- get response body by RestAssured and save it in html file
 
-# Component of utilities
+### Component of utilities
 	1- it's a helper take the screen shoot of failure
 
-# Component of data
+### Component of data
 	it's a java classes for data read/write data
 
 This is simple project for sige up using seleium framework , you can run the project on different browsers chrome ,firfox and ie .
