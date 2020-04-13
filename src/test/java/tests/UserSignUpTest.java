@@ -20,25 +20,17 @@ public class UserSignUpTest extends TestBase {
 
 	@Test(priority = 1, alwaysRun = true)
 	public void UserCanSignUpSuccessfully() throws InterruptedException  {
-	 //	try {
 			homePageObject= new HomePage(driver);
 			homePageObject.openSignUpPage();
 
 			SignUpObject = new UserSignUpPage(driver);
 			SignUpObject.signUp("Sara", "Nasser", "01000601958253", EmailSubjectWithTimeStamp, "Sara@123");
-
-
-
-
-
 	}
 
 	@Test(dependsOnMethods = {"UserCanSignUpSuccessfully"})
 
 	public void RegisteredUserCanLogout() {
-	 
 			SignUpObject.userLogout();
-
 	}
 
 	@Test(dependsOnMethods = {"RegisteredUserCanLogout"})

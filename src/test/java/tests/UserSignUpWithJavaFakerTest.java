@@ -37,8 +37,8 @@ public class UserSignUpWithJavaFakerTest extends TestBase {
  			System.out.println("Error : " + e.getMessage());
  		
  		}
+	 	
  	
-
 	}
 
 	@Test(dependsOnMethods = {"UserCanSignUpSuccessfully"})
