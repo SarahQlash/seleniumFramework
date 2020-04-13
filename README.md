@@ -11,21 +11,24 @@
   </dl>
 	
 	## Getting Started
+	
 	<dl>These instructions will get you a copy of the project up and running on your local machine </dl>
 	
 	#Prerequisites
+	
 	- Eclipse 
 	- JDK to run the Eclipse
 	- Git bash 
 	
 	# Installing and how it work 
+	
 	get your git bash where you want to clone the project on your local machine.
 	then type: 
-       1- `git clone https://github.com/SarahQlash/seleniumFramework.git`.
-	   2- import the project into Eclipse by importing maven project.
-	   3- you can run the project directly through the Eclipse by running TCS by TestNG or Run the project by maven
-	   4- you can also run the test cases by getting the report directly through allure framework 
-	     - type in git bash after you select the project destination `allure -serve` then 
+       `git clone https://github.com/SarahQlash/seleniumFramework.git`.
+	    import the project into Eclipse by importing maven project.
+	    you can run the project directly through the Eclipse by running TCS by TestNG or Run the project by maven
+	    you can also run the test cases by getting the report directly through allure framework 
+	    type in git bash after you select the project destination `allure -serve` then 
 		 `allure.bat serve allure-results` ... allure-results this where the output of test 
 		 
 	#Component of pages
