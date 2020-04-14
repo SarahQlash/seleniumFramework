@@ -1,4 +1,4 @@
-# selenium Framework
+# Selenium Framework
      Simple Project using java ,Maven ,TestNG , allure , POM  and RestAssured using Data Driven framework in the project.
 
 # Tech Stach :
