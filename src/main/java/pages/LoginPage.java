@@ -16,7 +16,7 @@ public class LoginPage extends PageBase {
 		wait = new WebDriverWait(driver, 60);
 	
 	}
-	
+
 	
 	@FindBy(xpath = "//input[@name='username']")
 	WebElement userNameTxt; 
@@ -37,7 +37,11 @@ public class LoginPage extends PageBase {
 		wait.until(ExpectedConditions.elementToBeClickable(loginbtn)) ;
 		clkBtn(loginbtn);
 		
-		assertTrue(nameTag.getText().contains(username));
+		// To Fail TC
+		assertTrue(nameTag.getText().contains("hi"));
+		
+		// To pass TC
+		//assertTrue(nameTag.getText().contains("Hi"));
 		
 		
 	}

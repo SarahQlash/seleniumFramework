@@ -52,6 +52,12 @@ public class TestBase {
 
 
 	}
+	
+	@AfterSuite
+	public void stopDriver() {
+		driver.quit();
+	
+	}
 
 	
 	@AfterMethod
@@ -60,14 +66,10 @@ public class TestBase {
 			System.out.println("Failed!");
 			System.out.println("TakingScreenShot...");
 			Helper.captureScreenshot(driver, result.getName());
-			driver.quit();
+			
 		}
 		
 	}
 	
-	@AfterSuite
-	public void stopDriver() {
-		driver.quit();
 	
-	}
 }
