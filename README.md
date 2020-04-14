@@ -25,7 +25,7 @@
 git clone https://github.com/SarahQlash/seleniumFramework.git
 ```
 * Import the project into Eclipse by importing maven project.
-* You can run the project directly through the Eclipse by running TCS by TestNG or Run the project by maven
+* You can run the project directly through the Eclipse by running Test cases by TestNG or Run the project by maven
 * You can also run the test cases by getting the report directly through allure framework
 * Type in git bash after you select the project destination `allure -serve` then
 ```
@@ -34,15 +34,15 @@ allure.bat serve allure-results
 allure-results this where the output of test
 
 ### Component of pages
-	1- Page Base
-	2- Sign up page
+	1- Page Base contain all the common methods that will be used by home, sign up , login pages
+	2- Sign up page 
 	3- Login page
 	4- Home page
 
 ### Component of tests
-	1- Test base
+	1- Test base that will be as a base for all test classes 
 	2- The user sign up  with DDT by JSON >> user sign up then logout then login reading data from JSON file
-	3-The user sign up  with Faker lib >>  user sign up then logout then login reading data from Faker Lib
+	3- The user sign up  with Faker lib >>  user sign up then logout then login reading data from Faker Lib
 	4- Get response body by RestAssured and save it in html file
 
 ### Component of utilities
