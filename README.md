@@ -49,6 +49,6 @@ allure-results this where the output of test
 	1- It's a helper to take the screenshot of failures
 
 ### Component of data
-	It's a java classes for read/write data
+	They are java classes for reading / writing the data
 
-This is a simple project for sign up using selenium framework , you can run the project on different browsers chrome ,firefox and internet explorer.
+This is a simple project for test sign up ، login and logout  using selenium framework , you can run the project on different browsers chrome ,firefox and internet explorer.
