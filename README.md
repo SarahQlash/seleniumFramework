@@ -51,4 +51,4 @@ allure-results this where the output of test
 ### Component of data
 	They are java classes for reading / writing the data
 
-This is a simple project for test sign up ، login and logout  using selenium framework , you can run the project on different browsers as  chrome ,firefox and internet explorer.
+This is a simple project for test sign up ، login and logout  using selenium framework , you can run the project on different browsers as  chrome ,firefox and internet explorer by changing value in testing.xml file.
