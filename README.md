@@ -46,7 +46,7 @@ allure-results this where the output of test
 	4- Get response body by RestAssured and save it in html file
 
 ### Component of utilities
-	1- It's a helper to take the screen shoot of failures
+	1- It's a helper to take the screenshot of failures
 
 ### Component of data
 	It's a java classes for read/write data
