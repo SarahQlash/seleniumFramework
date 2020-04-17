@@ -19,12 +19,13 @@
 	- Git bash
 
 ### Installing and how it work
-	1- Get your git bash where you want to clone the project on your local machine.
+1- Get your git bash where you want to clone the project on your local machine.
 	then type:
+	
 ```
 git clone https://github.com/SarahQlash/seleniumFramework.git
 ```
-        2- Inside Eclipse
+2- Inside Eclipse
 ```	
 File -> Import -> Maven -> Existing Maven project
 ```
