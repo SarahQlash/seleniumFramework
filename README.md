@@ -19,12 +19,15 @@
 	- Git bash
 
 ### Installing and how it work
-	Get your git bash where you want to clone the project on your local machine.
+	1- Get your git bash where you want to clone the project on your local machine.
 	then type:
 ```
 git clone https://github.com/SarahQlash/seleniumFramework.git
 ```
-* Import the project into Eclipse by importing maven project.
+        2- Inside Eclipse
+```	
+File -> Import -> Maven -> Existing Maven project
+```
 * You can run the project directly through the Eclipse by running Test cases by TestNG or Run the project by maven
 * You can also run the test cases by getting the report directly through allure framework
 * Type in git bash after you select the project destination `allure -serve` then
